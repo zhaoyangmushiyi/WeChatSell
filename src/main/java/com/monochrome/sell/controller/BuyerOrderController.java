@@ -15,9 +15,10 @@ import java.util.Map;
 public class BuyerOrderController {
 
     //创建订单
-//    public ResultVO<Map<String, String>> create() {
-//
-//    }
+    public ResultVO<Map<String, String>> create() {
+        ResultVO<Map<String, String>> resultVO = new ResultVO<>();
+        return resultVO;
+    }
 
     //订单列表
 
